@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B10000000000000000000001 /* FrostHollowDepthsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000001 /* FrostHollowDepthsApp.swift */; };
+		B10000000000000000000002 /* FHDWebPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000002 /* FHDWebPanel.swift */; };
+		B10000000000000000000003 /* FHDLoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000003 /* FHDLoadingScreen.swift */; };
+		B10000000000000000000004 /* FHDTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000004 /* FHDTheme.swift */; };
+		B10000000000000000000005 /* FHDShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000005 /* FHDShapes.swift */; };
+		B10000000000000000000006 /* FHDCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000006 /* FHDCore.swift */; };
+		B10000000000000000000007 /* FHDItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000007 /* FHDItems.swift */; };
+		B10000000000000000000008 /* FHDEnemies.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000008 /* FHDEnemies.swift */; };
+		B10000000000000000000009 /* FHDBiomes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000009 /* FHDBiomes.swift */; };
+		B10000000000000000000010 /* FHDGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000010 /* FHDGenerator.swift */; };
+		B10000000000000000000011 /* FHDRun.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000011 /* FHDRun.swift */; };
+		B10000000000000000000012 /* FHDEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000012 /* FHDEngine.swift */; };
+		B10000000000000000000013 /* FHDEngineAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000013 /* FHDEngineAI.swift */; };
+		B10000000000000000000014 /* FHDEngineItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000014 /* FHDEngineItems.swift */; };
+		B10000000000000000000015 /* FHDMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000015 /* FHDMeta.swift */; };
+		B10000000000000000000016 /* FHDRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000016 /* FHDRootView.swift */; };
+		B10000000000000000000017 /* FHDTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000017 /* FHDTitleView.swift */; };
+		B10000000000000000000018 /* FHDClassSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000018 /* FHDClassSelectView.swift */; };
+		B10000000000000000000019 /* FHDGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000019 /* FHDGameView.swift */; };
+		B10000000000000000000020 /* FHDGameHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000020 /* FHDGameHUD.swift */; };
+		B10000000000000000000021 /* FHDInventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000021 /* FHDInventoryView.swift */; };
+		B10000000000000000000022 /* FHDSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000022 /* FHDSummaryView.swift */; };
+		B10000000000000000000023 /* FHDMetaHubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000023 /* FHDMetaHubView.swift */; };
+		B10000000000000000000024 /* FHDDailyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000024 /* FHDDailyView.swift */; };
+		B10000000000000000000025 /* FHDCodexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000025 /* FHDCodexView.swift */; };
+		B10000000000000000000026 /* FHDAchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000026 /* FHDAchievementsView.swift */; };
+		B10000000000000000000027 /* FHDHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000027 /* FHDHistoryView.swift */; };
+		B10000000000000000000028 /* FHDSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000028 /* FHDSettingsView.swift */; };
+		B10000000000000000000029 /* FHDOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000029 /* FHDOnboardingView.swift */; };
+		B10000000000000000000030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000030 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F10000000000000000000001 /* FrostHollowDepthsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrostHollowDepthsApp.swift; sourceTree = "<group>"; };
+		F10000000000000000000002 /* FHDWebPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHDWebPanel.swift; sourceTree = "<group>"; };
+		F10000000000000000000003 /* FHDLoadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHDLoadingScreen.swift; sourceTree = "<group>"; };
+		F10000000000000000000004 /* FHDTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHDTheme.swift; sourceTree = "<group>"; };
+		F10000000000000000000005 /* FHDShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHDShapes.swift; sourceTree = "<group>"; };
+		F10000000000000000000006 /* FHDCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHDCore.swift; sourceTree = "<group>"; };
+		F10000000000000000000007 /* FHDItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHDItems.swift; sourceTree = "<group>"; };
+		F10000000000000000000008 /* FHDEnemies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHDEnemies.swift; sourceTree = "<group>"; };
+		F10000000000000000000009 /* FHDBiomes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHDBiomes.swift; sourceTree = "<group>"; };
+		F10000000000000000000010 /* FHDGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHDGenerator.swift; sourceTree = "<group>"; };
+		F10000000000000000000011 /* FHDRun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHDRun.swift; sourceTree = "<group>"; };
+		F10000000000000000000012 /* FHDEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHDEngine.swift; sourceTree = "<group>"; };
+		F10000000000000000000013 /* FHDEngineAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHDEngineAI.swift; sourceTree = "<group>"; };
+		F10000000000000000000014 /* FHDEngineItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHDEngineItems.swift; sourceTree = "<group>"; };
+		F10000000000000000000015 /* FHDMeta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHDMeta.swift; sourceTree = "<group>"; };
+		F10000000000000000000016 /* FHDRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHDRootView.swift; sourceTree = "<group>"; };
+		F10000000000000000000017 /* FHDTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHDTitleView.swift; sourceTree = "<group>"; };
+		F10000000000000000000018 /* FHDClassSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHDClassSelectView.swift; sourceTree = "<group>"; };
+		F10000000000000000000019 /* FHDGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHDGameView.swift; sourceTree = "<group>"; };
+		F10000000000000000000020 /* FHDGameHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHDGameHUD.swift; sourceTree = "<group>"; };
+		F10000000000000000000021 /* FHDInventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHDInventoryView.swift; sourceTree = "<group>"; };
+		F10000000000000000000022 /* FHDSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHDSummaryView.swift; sourceTree = "<group>"; };
+		F10000000000000000000023 /* FHDMetaHubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHDMetaHubView.swift; sourceTree = "<group>"; };
+		F10000000000000000000024 /* FHDDailyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHDDailyView.swift; sourceTree = "<group>"; };
+		F10000000000000000000025 /* FHDCodexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHDCodexView.swift; sourceTree = "<group>"; };
+		F10000000000000000000026 /* FHDAchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHDAchievementsView.swift; sourceTree = "<group>"; };
+		F10000000000000000000027 /* FHDHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHDHistoryView.swift; sourceTree = "<group>"; };
+		F10000000000000000000028 /* FHDSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHDSettingsView.swift; sourceTree = "<group>"; };
+		F10000000000000000000029 /* FHDOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FHDOnboardingView.swift; sourceTree = "<group>"; };
+		F10000000000000000000030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F10000000000000000000031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F10000000000000000000032 /* Frost Hollow Depths.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Frost Hollow Depths.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C10000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D10000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				D10000000000000000000002 /* Frost Hollow Depths */,
+				D10000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D10000000000000000000002 /* Frost Hollow Depths */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000001 /* FrostHollowDepthsApp.swift */,
+				F10000000000000000000002 /* FHDWebPanel.swift */,
+				F10000000000000000000003 /* FHDLoadingScreen.swift */,
+				F10000000000000000000004 /* FHDTheme.swift */,
+				F10000000000000000000005 /* FHDShapes.swift */,
+				F10000000000000000000006 /* FHDCore.swift */,
+				F10000000000000000000007 /* FHDItems.swift */,
+				F10000000000000000000008 /* FHDEnemies.swift */,
+				F10000000000000000000009 /* FHDBiomes.swift */,
+				F10000000000000000000010 /* FHDGenerator.swift */,
+				F10000000000000000000011 /* FHDRun.swift */,
+				F10000000000000000000012 /* FHDEngine.swift */,
+				F10000000000000000000013 /* FHDEngineAI.swift */,
+				F10000000000000000000014 /* FHDEngineItems.swift */,
+				F10000000000000000000015 /* FHDMeta.swift */,
+				F10000000000000000000016 /* FHDRootView.swift */,
+				F10000000000000000000017 /* FHDTitleView.swift */,
+				F10000000000000000000018 /* FHDClassSelectView.swift */,
+				F10000000000000000000019 /* FHDGameView.swift */,
+				F10000000000000000000020 /* FHDGameHUD.swift */,
+				F10000000000000000000021 /* FHDInventoryView.swift */,
+				F10000000000000000000022 /* FHDSummaryView.swift */,
+				F10000000000000000000023 /* FHDMetaHubView.swift */,
+				F10000000000000000000024 /* FHDDailyView.swift */,
+				F10000000000000000000025 /* FHDCodexView.swift */,
+				F10000000000000000000026 /* FHDAchievementsView.swift */,
+				F10000000000000000000027 /* FHDHistoryView.swift */,
+				F10000000000000000000028 /* FHDSettingsView.swift */,
+				F10000000000000000000029 /* FHDOnboardingView.swift */,
+				F10000000000000000000030 /* Assets.xcassets */,
+				F10000000000000000000031 /* Info.plist */,
+			);
+			path = "Frost Hollow Depths";
+			sourceTree = "<group>";
+		};
+		D10000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F10000000000000000000032 /* Frost Hollow Depths.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E10000000000000000000001 /* Frost Hollow Depths */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000000000000000000003 /* Build configuration list for PBXNativeTarget "Frost Hollow Depths" */;
+			buildPhases = (
+				C10000000000000000000002 /* Sources */,
+				C10000000000000000000001 /* Frameworks */,
+				C10000000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Frost Hollow Depths";
+			productName = "Frost Hollow Depths";
+			productReference = F10000000000000000000032 /* Frost Hollow Depths.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A10000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					E10000000000000000000001 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = A10000000000000000000002 /* Build configuration list for PBXProject "Frost Hollow Depths" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D10000000000000000000001;
+			productRefGroup = D10000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E10000000000000000000001 /* Frost Hollow Depths */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C10000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10000000000000000000030 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C10000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10000000000000000000001 /* FrostHollowDepthsApp.swift in Sources */,
+				B10000000000000000000002 /* FHDWebPanel.swift in Sources */,
+				B10000000000000000000003 /* FHDLoadingScreen.swift in Sources */,
+				B10000000000000000000004 /* FHDTheme.swift in Sources */,
+				B10000000000000000000005 /* FHDShapes.swift in Sources */,
+				B10000000000000000000006 /* FHDCore.swift in Sources */,
+				B10000000000000000000007 /* FHDItems.swift in Sources */,
+				B10000000000000000000008 /* FHDEnemies.swift in Sources */,
+				B10000000000000000000009 /* FHDBiomes.swift in Sources */,
+				B10000000000000000000010 /* FHDGenerator.swift in Sources */,
+				B10000000000000000000011 /* FHDRun.swift in Sources */,
+				B10000000000000000000012 /* FHDEngine.swift in Sources */,
+				B10000000000000000000013 /* FHDEngineAI.swift in Sources */,
+				B10000000000000000000014 /* FHDEngineItems.swift in Sources */,
+				B10000000000000000000015 /* FHDMeta.swift in Sources */,
+				B10000000000000000000016 /* FHDRootView.swift in Sources */,
+				B10000000000000000000017 /* FHDTitleView.swift in Sources */,
+				B10000000000000000000018 /* FHDClassSelectView.swift in Sources */,
+				B10000000000000000000019 /* FHDGameView.swift in Sources */,
+				B10000000000000000000020 /* FHDGameHUD.swift in Sources */,
+				B10000000000000000000021 /* FHDInventoryView.swift in Sources */,
+				B10000000000000000000022 /* FHDSummaryView.swift in Sources */,
+				B10000000000000000000023 /* FHDMetaHubView.swift in Sources */,
+				B10000000000000000000024 /* FHDDailyView.swift in Sources */,
+				B10000000000000000000025 /* FHDCodexView.swift in Sources */,
+				B10000000000000000000026 /* FHDAchievementsView.swift in Sources */,
+				B10000000000000000000027 /* FHDHistoryView.swift in Sources */,
+				B10000000000000000000028 /* FHDSettingsView.swift in Sources */,
+				B10000000000000000000029 /* FHDOnboardingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A20000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A20000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A20000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Frost Hollow Depths/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.frosthollowdepths.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A20000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Frost Hollow Depths/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.frosthollowdepths.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A10000000000000000000002 /* Build configuration list for PBXProject "Frost Hollow Depths" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A20000000000000000000001 /* Debug */,
+				A20000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000000000000000000003 /* Build configuration list for PBXNativeTarget "Frost Hollow Depths" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A20000000000000000000003 /* Debug */,
+				A20000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A10000000000000000000001 /* Project object */;
+}

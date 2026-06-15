@@ -24,7 +24,7 @@ struct FHDTitleView: View {
                 }
                 .padding(.bottom, 4)
 
-                Text("FROST HOLLOW")
+                Text("EMBERFALL")
                     .font(.system(size: 30, weight: .heavy, design: .serif))
                     .tracking(4)
                     .foregroundColor(FHDTheme.ivory)

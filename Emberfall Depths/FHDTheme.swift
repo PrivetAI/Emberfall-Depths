@@ -1,6 +1,6 @@
 import SwiftUI
 
-// Central color palette for Frost Hollow Depths.
+// Central color palette for Emberfall Depths.
 // Cold dungeon identity: deep glacial blue / near-black, warm torch orange,
 // ice cyan, bone ivory. Forced dark scheme.
 enum FHDTheme {

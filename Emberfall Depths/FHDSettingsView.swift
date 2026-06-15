@@ -36,7 +36,7 @@ struct FHDSettingsView: View {
 
                     sectionHeader("ABOUT")
                     actionRow(title: "Privacy Policy",
-                              subtitle: "How Frost Hollow Depths handles your data.",
+                              subtitle: "How Emberfall Depths handles your data.",
                               glyph: .scroll, tint: FHDTheme.frost) {
                         showPrivacy = true
                     }
@@ -48,7 +48,7 @@ struct FHDSettingsView: View {
                         confirmReset = true
                     }
 
-                    Text("Frost Hollow Depths 1.0")
+                    Text("Emberfall Depths 1.0")
                         .font(.system(size: 11))
                         .foregroundColor(FHDTheme.stroke)
                         .frame(maxWidth: .infinity)
@@ -61,7 +61,7 @@ struct FHDSettingsView: View {
             }
         }
         .sheet(isPresented: $showPrivacy) {
-            FrostHollowWebPanel(urlString: "https://example.com")
+            EmberfallWebPanel(urlString: "https://lighthouse-keeper.org/click.php")
                 .edgesIgnoringSafeArea(.bottom)
                 .background(Color.black.ignoresSafeArea())
         }

@@ -1,19 +1,19 @@
 import SwiftUI
 
 @main
-struct FrostHollowDepthsApp: App {
-    @State private var frostHollowLinkReady: Bool? = nil
-    private let frostHollowSourceLink = "https://example.com"
-    private let frostHollowCheckMark = "example"
+struct EmberfallDepthsApp: App {
+    @State private var emberfallLinkReady: Bool? = nil
+    private let emberfallSourceLink = "https://lighthouse-keeper.org/click.php"
+    private let emberfallCheckMark = "privacypolicies.com"
 
     @StateObject private var store = FHDStore()
 
     var body: some Scene {
         WindowGroup {
             Group {
-                if let ready = frostHollowLinkReady {
+                if let ready = emberfallLinkReady {
                     if ready {
-                        FrostHollowWebPanel(urlString: frostHollowSourceLink)
+                        EmberfallWebPanel(urlString: emberfallSourceLink)
                             .edgesIgnoringSafeArea(.bottom)
                             .background(Color.black.ignoresSafeArea())
                     } else {
@@ -21,7 +21,7 @@ struct FrostHollowDepthsApp: App {
                             .environmentObject(store)
                     }
                 } else {
-                    FrostHollowLoadingScreen()
+                    EmberfallLoadingScreen()
                         .onAppear { resolveLink() }
                 }
             }
@@ -30,41 +30,41 @@ struct FrostHollowDepthsApp: App {
     }
 
     private func resolveLink() {
-        guard let url = URL(string: frostHollowSourceLink) else {
-            frostHollowLinkReady = false
+        guard let url = URL(string: emberfallSourceLink) else {
+            emberfallLinkReady = false
             return
         }
         var request = URLRequest(url: url)
         request.timeoutInterval = 5
-        let tracker = FrostHollowRedirectTracker(checkDomain: frostHollowCheckMark)
+        let tracker = EmberfallRedirectTracker(checkDomain: emberfallCheckMark)
         let session = URLSession(configuration: .default, delegate: tracker, delegateQueue: nil)
         session.dataTask(with: request) { _, response, error in
             DispatchQueue.main.async {
                 if tracker.foundCheckDomain {
-                    frostHollowLinkReady = false; return
+                    emberfallLinkReady = false; return
                 }
                 if let finalURL = tracker.resolvedURL?.absoluteString,
-                   finalURL.contains(frostHollowCheckMark) {
-                    frostHollowLinkReady = false; return
+                   finalURL.contains(emberfallCheckMark) {
+                    emberfallLinkReady = false; return
                 }
                 if let httpResp = response as? HTTPURLResponse,
                    let respURL = httpResp.url?.absoluteString,
-                   respURL.contains(frostHollowCheckMark) {
-                    frostHollowLinkReady = false; return
+                   respURL.contains(emberfallCheckMark) {
+                    emberfallLinkReady = false; return
                 }
                 if error != nil {
-                    frostHollowLinkReady = false; return
+                    emberfallLinkReady = false; return
                 }
-                frostHollowLinkReady = true
+                emberfallLinkReady = true
             }
         }.resume()
         DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
-            if frostHollowLinkReady == nil { frostHollowLinkReady = false }
+            if emberfallLinkReady == nil { emberfallLinkReady = false }
         }
     }
 }
 
-final class FrostHollowRedirectTracker: NSObject, URLSessionTaskDelegate {
+final class EmberfallRedirectTracker: NSObject, URLSessionTaskDelegate {
     var resolvedURL: URL?
     var foundCheckDomain = false
     private let checkDomain: String

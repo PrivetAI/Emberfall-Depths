@@ -1,7 +1,7 @@
 import SwiftUI
 import WebKit
 
-struct FrostHollowWebPanel: UIViewRepresentable {
+struct EmberfallWebPanel: UIViewRepresentable {
     let urlString: String
 
     func makeUIView(context: Context) -> WKWebView {

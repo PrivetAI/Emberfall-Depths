@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct FrostHollowLoadingScreen: View {
+struct EmberfallLoadingScreen: View {
     @State private var glow = false
     @State private var spin = false
 
@@ -21,7 +21,7 @@ struct FrostHollowLoadingScreen: View {
                         .shadow(color: FHDTheme.torch.opacity(0.8), radius: glow ? 18 : 6)
                         .animation(.easeInOut(duration: 1.1).repeatForever(autoreverses: true), value: glow)
                 }
-                Text("FROST HOLLOW DEPTHS")
+                Text("EMBERFALL DEPTHS")
                     .font(.system(size: 19, weight: .heavy, design: .serif))
                     .tracking(3)
                     .foregroundColor(FHDTheme.ivory)

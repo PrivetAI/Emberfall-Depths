@@ -123,7 +123,10 @@ struct FHDControlsView: View {
     var body: some View {
         GeometryReader { g in
             let vw = min(g.size.width, UIScreen.main.bounds.width)
-            let unit = min(54, (vw - 40) / 6)
+            // Button size must fit BOTH the width (6 columns) AND the height (3 D-pad
+            // rows + paddings), otherwise the D-pad overflows the controls frame and
+            // spills onto the log strip below.
+            let unit = max(34, min(52, min((vw - 40) / 6, (g.size.height - 24) / 3)))
             HStack(spacing: 14) {
                 // action column
                 VStack(spacing: 6) {
@@ -144,10 +147,10 @@ struct FHDControlsView: View {
                 }
             }
             .frame(width: vw)
-            .frame(maxWidth: .infinity)
             .padding(.vertical, 8)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
         }
-        .frame(height: 132)
+        .frame(height: 150)
     }
 
     private var onStairs: Bool {
